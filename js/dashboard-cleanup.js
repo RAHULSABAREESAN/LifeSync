@@ -1,0 +1,1 @@
+(()=>{const remove=()=>{document.querySelector('.advanced-grid')?.remove();document.querySelector('.panel.ai')?.remove();document.querySelectorAll('.metric').forEach(card=>{if(/Consistency/.test(card.textContent))card.remove()});};remove();})();
